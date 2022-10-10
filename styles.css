@@ -42,10 +42,10 @@ body {
 
 
 .menu_elm {
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 39px;
-    padding: 25px 62px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 4px 62px;
 }
 
 .logo {
@@ -79,9 +79,9 @@ body {
     border: 1px #1A5245;
     border-radius: 20px;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 39px;
-    padding: 26px 67px;
+    padding: 20px 64px;
     margin-top: 825px;
     margin-bottom: 114px;
     display: inline-block;
@@ -124,7 +124,7 @@ body {
 .about-text {
     padding-right: 50px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 39px;
     color: #FFFFFF;
 }
@@ -192,4 +192,63 @@ body {
     opacity: 0.4;
     text-align: center;
     /* justify-content: flex-end; */
+}
+
+.contact_link {
+    color: #1A5245;
+    text-decoration: none;
+    margin-right: 120px;
+
+}
+
+.contact_link:hover {
+    color: #898787;
+}
+
+.contacts_list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+
+}
+
+.map_and_links {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 80px;
+}
+
+i {
+    font-size: 34px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content_contact {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact_link {
+    list-style-type: none;
+}
+
+.contact_link>li {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.list_cont {
+    margin-bottom: 10px;
 }
