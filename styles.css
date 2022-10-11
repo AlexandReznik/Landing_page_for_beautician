@@ -252,3 +252,56 @@ i {
 .list_cont {
     margin-bottom: 10px;
 }
+
+@media (max-width: 1024px) {
+    /* .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    } */
+
+    .menu_elm {
+        padding: 4px 33px;
+    }
+
+    .content_about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        padding-right: 0;
+    }
+
+    .my_photo {
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .prices_back {
+        background-image: url(For_personal_using/Merged_document.jpg);
+        padding-top: 1800px;
+    }
+
+    .results {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-2-results {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .contact_link {
+        margin-right: 0;
+
+    }
+
+    .footer {
+        background-color: #1A5245;
+        background-image: url(For_personal_using/white_logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
