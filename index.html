@@ -17,7 +17,7 @@
 <body>
     <div class="top">
         <div class="content_box container">
-            <div class="menu">
+            <!-- <div class="menu">
                 <ul class="menu_elms">
                     <li class="menu_elm"><a href="#" class="menu_link"><img src="For_personal_using/white_logo.png"
                                 alt="logo" class="logo"></a></li>
@@ -25,9 +25,9 @@
                     <li class="menu_elm"><a href="#my_works" class="menu_link">Мои работы</a></li>
                     <li class="menu_elm"><a href="#place" class="menu_link">Адрес</a></li>
                 </ul>
-            </div>
-            <!-- <div class="topnav" id="myTopnav">
-                <a href="" class="active">Home</a>
+            </div> -->
+            <div class="topnav" id="myTopnav">
+                <!-- <a href="" class="active">Home</a>
                 <ul class="menu_elms">
                     <li><a href="#" class="menu_link"><img src="For_personal_using/white_logo.png" alt="logo"
                                 class="logo"></a></li>
@@ -36,15 +36,16 @@
                     <li><a href="#place">Адрес</a></li>
                     <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i></li>
-                </ul>
-                <a href="#call_me" class="active">Записаться</a>
+                </ul> -->
+                <!-- <a href="#call_me">Записаться</a> -->
                 <a href="#prices_link">Цены</a>
                 <a href="#my_works">Результаты</a>
                 <a href="#place">Адрес</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="#room">Рабочее место</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunc()">
                     <i class="fa fa-bars"></i>
                 </a>
-            </div> -->
+            </div>
             <div class="head">
                 <a href="tel:89787499432" class="call menu_link" id="call_me">Позвонить</a>
             </div>
@@ -87,7 +88,7 @@
             </div>
         </div>
     </div>
-    <div class="my_work_place container">
+    <div class="my_work_place container" id="room">
         <h1 class="price_heading">Мое рабочее место и сертификаты</h1>
         <div class="sim-slider">
             <ul class="sim-slider-list">
@@ -144,6 +145,7 @@
     <div class="rights container">
         <p class="footer_text">2021 © All rights reserved.</p>
     </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
     <script src="./app.js"></script>
 </body>
 

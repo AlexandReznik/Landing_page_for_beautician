@@ -143,7 +143,7 @@ body {
     padding-bottom: 940px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     margin-top: 35px;
 }
 
@@ -261,8 +261,8 @@ i {
 }
 
 .sim-slider {
-    max-width: 1000px;
-    min-width: 320px;
+    /* max-width: 1000px;
+    min-width: 320px; */
     margin: 20px auto;
     padding: 30px 50px;
     /* border: 1px solid #ccd; */
@@ -346,7 +346,7 @@ i {
     cursor: pointer;
 }
 
-/* .topnav {
+.topnav {
     overflow: hidden;
     background-color: #1A5245
 }
@@ -362,46 +362,39 @@ i {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #2a584d;
 }
 
 .active {
     background-color: #1A5245;
-    color: rgb(82, 72, 72);
+    /* color: rgb(82, 72, 72); */
 }
 
 .topnav .icon {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-        display: none;
-    }
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #2a584d;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
 
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
+#myBtn:hover {
+    background-color: #FFFFFF;
+    color: #1A5245;
 
-    .topnav.responsive {
-        position: relative;
-    }
-
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-} */
-
+}
 
 @media (max-width: 1024px) {
     /* .container {
@@ -427,9 +420,17 @@ i {
         margin-top: 20px;
     }
 
+    .call {
+        font-size: 17px;
+        padding: 10px 49px;
+        margin-top: 612px;
+    }
+
     .prices_back {
         background-image: url(For_personal_using/Merged_document.jpg);
-        padding-top: 2399px;
+        /* padding-top: 2399px; */
+        background-size: contain;
+        padding-top: 100%;
     }
 
     .results {
@@ -456,4 +457,108 @@ i {
     }
 }
 
-@media (max-width: 667px) {}
+@media screen and (max-width: 680px) {
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+}
+
+@media (max-width: 680px) {
+    .head {
+        background-image: url(For_personal_using/black_logo.png);
+        background-size: contain;
+        /* background-color: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(26, 82, 69, 0.7) 100%); */
+    }
+
+    .call {
+        padding: 12px 48px;
+        margin-top: 604px;
+        font-size: 17px;
+    }
+
+    .call:hover {
+        color: #ffffff;
+        background: #2a584d
+    }
+
+    .about_me {
+        font-size: 40px;
+        padding-top: 9px;
+    }
+
+    .content_about {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+    }
+
+    .price_heading {
+        font-size: 40px;
+        padding-top: 20px;
+        line-height: 50px;
+    }
+
+    .prices_back {
+        background-size: contain;
+        padding-top: 70%;
+    }
+
+    .map_and_links {
+        flex-direction: column;
+        padding: 30px 28px;
+    }
+
+    .contacts_list {
+        justify-content: space-between;
+    }
+
+    .top {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(26, 82, 69, 0.7) 100%);
+    }
+
+    .content_contact {
+        font-size: 28px;
+        padding-top: 15px;
+        padding-bottom: 31px;
+    }
+
+    .contact_link {
+        padding-bottom: 11px;
+    }
+
+    .footer_text {
+        font-size: 13px;
+    }
+
+    .contact_link>li {
+        font-size: 15px;
+    }
+
+    #myBtn {
+        bottom: 27px;
+        right: 2px;
+    }
+}
