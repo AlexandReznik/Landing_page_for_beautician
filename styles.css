@@ -21,7 +21,6 @@ body {
 }
 
 
-
 .menu {
     max-width: 1440px;
     /* position: absolute; */
@@ -382,7 +381,7 @@ General styles
     display: none;
 }
 
-.myBtn {
+#myBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -398,7 +397,7 @@ General styles
     font-size: 18px;
 }
 
-.myBtn:hover {
+#myBtn:hover {
     background-color: #FFFFFF;
     color: #1A5245;
 
@@ -565,7 +564,7 @@ General styles
         font-size: 15px;
     }
 
-    .myBtn {
+    #myBtn {
         bottom: 27px;
         right: 2px;
     }
