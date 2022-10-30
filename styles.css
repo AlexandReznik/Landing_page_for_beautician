@@ -122,12 +122,25 @@ body {
     max-height: 507px;
 }
 
-.about-text {
+/* .about-text {
     padding-right: 50px;
     font-weight: 400;
     font-size: 16px;
     line-height: 39px;
     color: #FFFFFF;
+} */
+
+.about_list {
+    align-self: center;
+}
+
+.about_list_elm {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    padding-bottom: 10px;
+    list-style-type: none;
 }
 
 .price_heading {
@@ -266,7 +279,6 @@ i {
 /* .photo_slider {
     width: auto !important;
 }
-
 .sim-slider {
     max-width: 1000px;
     min-width: 320px;
@@ -275,19 +287,16 @@ i {
     border: 1px solid #ccd;
     background-color: white;
 }
-
 General styles
 .sim-slider {
     position: relative;
 }
-
 .sim-slider-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
     position: relative;
 }
-
 .sim-slider-element {
     transition: opacity 1s ease-in;
     opacity: 0;
@@ -297,7 +306,6 @@ General styles
     top: 0;
     display: block;
 }
-
 /* Navigation item styles */
 /* .sim-slider-arrow-left,
 .sim-slider-arrow-right {
@@ -308,29 +316,24 @@ General styles
     opacity: 0.6;
     z-index: 4;
 }
-
 .sim-slider-arrow-left {
     left: 10px;
     top: 40%;
     display: block;
     background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png") no-repeat;
 }
-
 .sim-slider-arrow-right {
     right: 10px;
     top: 40%;
     display: block;
     background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png") no-repeat;
 }
-
 .sim-slider-arrow-left:hover {
     opacity: 1.0;
 }
-
 .sim-slider-arrow-right:hover {
     opacity: 1.0;
 }
-
 .sim-slider-dots {
     width: 100%;
     height: auto;
@@ -340,7 +343,6 @@ General styles
     z-index: 3;
     text-align: center;
 }
-
 .sim-dot {
     width: 10px;
     height: 10px;
@@ -516,11 +518,15 @@ General styles
         padding-top: 9px;
     }
 
+
+
+
     .content_about {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 0px;
     }
+
 
     .price_heading {
         font-size: 40px;
