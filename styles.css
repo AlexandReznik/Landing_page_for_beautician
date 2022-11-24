@@ -109,17 +109,17 @@ body {
 
 .content_about {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-grow: 1;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 35px;
     padding-bottom: 75px;
 }
 
 .my_photo {
-    max-width: 368px;
-    max-height: 507px;
+    max-width: 363px;
+    max-height: 557px;
 }
 
 /* .about-text {
@@ -132,6 +132,7 @@ body {
 
 .about_list {
     align-self: center;
+    padding-left: 0;
 }
 
 .about_list_elm {
@@ -405,12 +406,23 @@ General styles
 
 }
 
-@media (max-width: 1024px) {
-    /* .container {
-        padding-left: 32px;
-        padding-right: 32px;
-    } */
+@media (max-width: 1400px) {
+    .content_about {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .about_list {
+        padding-left: 0;
+    }
+
+    .my_photo {
+        align-self: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
     .menu_elm {
         padding: 4px 33px;
     }
